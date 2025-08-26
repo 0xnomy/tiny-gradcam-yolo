@@ -3,7 +3,7 @@
 ## Overview
 This project combines **Grad-CAM++ (Gradient-weighted Class Activation Mapping)** with **YOLO (You Only Look Once)** to enhance object detection performance on the **VisDrone dataset**. The workflow uses Grad-CAM heatmaps to identify regions of interest (ROIs) in drone imagery, then applies YOLO to detect and classify objects within those regions. The approach is designed to improve focus on highly activated areas, potentially leading to more reliable detections in cluttered, aerial environments.
 
-![Sample Detection Output](detection/dect_3.png)
+![Sample Detection Output](detection/det_3.png)
 
 
 Attached images in the results folder demonstrate how the pipeline processes input images: generating heatmaps, cropping ROIs, and overlaying YOLO detections.
